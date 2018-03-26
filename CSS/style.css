@@ -1,0 +1,163 @@
+/************************************************************************/
+/***************************  Body  *************************************/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+/************************************************************************/
+/**************************  header  ************************************/
+
+
+#header{
+    height: 50px;
+    border-top: 3px solid black;
+}
+
+
+#header .header_block{
+    height: 50px;
+    width: 180px;
+    margin-right: 10px;
+    float: left;
+}
+
+
+#header img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 10px;
+    padding : 5px;
+    padding-right: 0;
+}
+
+
+#header a{
+    float: left;
+    font-size: 14px;
+    width: 130px;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#header a:hover{
+    color: orangered;
+    font-weight: bolder;
+}
+
+
+/************************************************************************/
+/**************************  content  ***********************************/
+#content{
+    height: 460px;
+    color: white;
+    padding-top: 30px;
+}
+
+#content h1{
+    font-size: 45px;
+}
+
+#content #data p{
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+
+#content form input{
+    height: 50px;
+    margin-top: 30px;
+}
+
+#content form input[type="search"]{
+    width: 350px;
+    margin-right: 0;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+
+#content form input[type="button"]{
+    width: 300px;
+    margin-left: 0;
+    color: white;
+    background-color: orangered;
+    font-size: 15px;
+    
+}
+
+
+
+#content .more{
+    float: left;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+#content img{
+    width: 50px;
+    height: 50px;
+}
+
+#content .more p{
+    color: #b7dbff;
+}
+
+/************************************************************************/
+/**************************  footer  ************************************/
+#footer{
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer ul{
+    margin: 0;
+    margin-left: 0;
+    height: 70px;
+}
+
+#footer ul li{
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    float: left;    
+    margin: 0px;
+    margin-left: -45px;
+    background-color: #e3eaed;
+    color: #a4afb4;
+    font-size: 20px;
+    text-align: center;    
+    padding-top: 30px;
+    border-top: 5px solid transparent;
+}
+
+
+#footer ul li:hover{
+    color: #15bb48;
+    background-color: white;
+    border-top: 5px solid #15bb48;
+}
+
+
+
+
+
+
+
+
+
+
+
+
